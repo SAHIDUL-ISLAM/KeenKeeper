@@ -26,11 +26,11 @@ export default function RootLayout({ children }) {
     >
       <body className="">
         <Navbar/>
-          <div className="bg-[#F8FAFC]">
-          {children}
+          <div className="bg-[#F8FAFC] ">
+          <main className="max-w-7xl mx-auto">{children}</main>
           </div>
         <Footer/>
-        </body>
+      </body>
     </html>
   );
 }

@@ -2,11 +2,11 @@
   {
     "id": 1,
     "name": "Rafiq Ahmed",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=800",
     "email": "rafiq.ahmed@gmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": ["college", "close friend"],
+    "tags": ["work"],
     "bio": "Roommates for two years at university. He's the one who taught me how to cook proper biryani.",
     "goal": 14,
     "next_due_date": "2026-08-15"
@@ -14,11 +14,11 @@
   {
     "id": 2,
     "name": "Nusrat Jahan",
-    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800",
     "email": "nusrat.jahan@outlook.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["work", "gym buddy"],
+    "tags": ["family"],
     "bio": "We started at the same company on the same day and now hit the gym together every week.",
     "goal": 7,
     "next_due_date": "2026-10-03"
@@ -26,11 +26,11 @@
   {
     "id": 3,
     "name": "Tanvir Hossain",
-    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
     "email": "tanvir.h88@yahoo.com",
     "days_since_contact": 12,
     "status": "almost due",
-    "tags": ["childhood friend", "neighbor"],
+    "tags": ["work"],
     "bio": "Grew up on the same street. We still argue about whose team is better every football season.",
     "goal": 14,
     "next_due_date": "2026-10-08"
@@ -38,11 +38,11 @@
   {
     "id": 4,
     "name": "Ayesha Siddiqua",
-    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
     "email": "ayesha.siddiqua@gmail.com",
     "days_since_contact": 60,
     "status": "overdue",
-    "tags": ["college", "book club"],
+    "tags": ["hobby", "travel"],
     "bio": "Met in the literature society at DU. We've been swapping book recommendations for eight years.",
     "goal": 21,
     "next_due_date": "2026-08-01"
@@ -50,11 +50,11 @@
   {
     "id": 5,
     "name": "Mahin Rahman",
-    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=800",
     "email": "mahin.rahman@gmail.com",
     "days_since_contact": 1,
     "status": "on-track",
-    "tags": ["family friend", "close friend"],
+    "tags": ["family"],
     "bio": "Our families have been close since before we were born. He's basically a cousin at this point.",
     "goal": 10,
     "next_due_date": "2026-10-06"
@@ -62,11 +62,11 @@
   {
     "id": 6,
     "name": "Farzana Akter",
-    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "picture": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800",
     "email": "farzana.akter@hotmail.com",
     "days_since_contact": 20,
     "status": "almost due",
-    "tags": ["work", "mentor"],
+    "tags": ["travel"],
     "bio": "My first manager at the internship. She still gives the best career advice over coffee.",
     "goal": 21,
     "next_due_date": "2026-10-10"
@@ -74,11 +74,11 @@
   {
     "id": 7,
     "name": "Shakib Al Noman",
-    "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=800",
     "email": "shakib.noman@gmail.com",
     "days_since_contact": 90,
     "status": "overdue",
-    "tags": ["college", "travel buddy"],
+    "tags": ["work"],
     "bio": "We backpacked through Sylhet together during our last semester. Long overdue for a reunion trip.",
     "goal": 30,
     "next_due_date": "2026-07-15"
@@ -86,13 +86,13 @@
   {
     "id": 8,
     "name": "Ishrat Jahan Mou",
-    "picture": "https://randomuser.me/api/portraits/women/30.jpg",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=800",
     "email": "ishrat.mou@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["close friend", "gym buddy"],
+    "tags": ["hobby","travel"],
     "bio": "My go-to person for both late-night talks and early-morning runs.",
     "goal": 7,
-    "next_due_date": "2026-10-05"
+    "next_due_date": "2026-10-06"
   }
 ]
