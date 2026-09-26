@@ -19,14 +19,14 @@ const Navbar = () => {
     return (
         <div>
             <div className="navbar flex flex-col sm:flex-row bg-base-100 shadow-sm">
-                <div className="navbar-start">
+                <div className="navbar-center sm:navbar-start">
                     <Link href={"/"}>
                         <h1 className="text-2xl font-bold text-[#244D3F]">
                             <span className='font-extrabold text-[#1F2937]'>Keen</span>Keeper
                         </h1>
                     </Link>
                 </div>
-                <div className="navbar-end flex-wrap justify-center gap-2">
+                <div className="navbar-end flex-wrap justify-center sm:justify-end gap-2">
                     {navItems.map((item) => {
                         const isActive = item.href === '/'
                             ? pathname === '/'

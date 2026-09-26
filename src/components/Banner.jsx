@@ -3,7 +3,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex flex-col justify-center items-center px-4 pt-10 sm:pt-15 min-h-screen text-center'>
+        <div className='flex flex-col justify-center items-center px-4 pt-10 sm:pt-15 text-center'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-[#244D3F] max-w-3xl'>
                 Friends to keep close in your life
             </h1>

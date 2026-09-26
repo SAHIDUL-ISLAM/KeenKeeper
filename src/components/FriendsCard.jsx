@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const FriendsCard = ({person}) => {
     return (
-        <div className=''>
+        <div className='p-5'>
             <div className="card bg-base-100 shadow-sm items-center text-center p-6">
                 <figure className="w-24 h-24 rounded-full overflow-hidden border">
                     <Image src={person.picture}
