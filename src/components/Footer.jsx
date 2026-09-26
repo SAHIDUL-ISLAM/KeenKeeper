@@ -6,7 +6,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <footer className=" footer-horizontal footer-center bg-[#244D3F]  rounded pt-10 pb-5 text-white ">
+        <footer className="footer-horizontal footer-center bg-[#244D3F]  rounded pt-10 pb-5 text-white">
             <div className='max-w-10xl m-auto space-y-5'>
             <h1 className='text-3xl sm:text-5xl font-bold'>KeenKeeper</h1>
             <p className='text-[#efeaeacc]'>
@@ -14,10 +14,10 @@ const Footer = () => {
             </p>
             <nav>
                 <h2 className='text-lg sm:text-xl font-semibold pb-2.5'>Social Links</h2>
-                <div className="grid grid-flow-col gap-4">
-                <Link href={"/instagram"} className='bg-white p-2.5 text-black border rounded-3xl'><FaInstagram /></Link>
-                <Link href={"/facebook"}  className='bg-white p-2.5 text-black border rounded-3xl'><CiFacebook /></Link>
-                <Link href={"/twitter"}  className='bg-white p-2.5 text-black border rounded-3xl'><FaXTwitter /></Link>
+                <div className="grid grid-flow-col justify-center items-center gap-4">
+                <Link href={"/instagram"} className='bg-white p-2.5 rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><FaInstagram /></Link>
+                <Link href={"/facebook"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><CiFacebook /></Link>
+                <Link href={"/twitter"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><FaXTwitter /></Link>
                 </div>
             </nav>
             <div className="sm:flex justify-between items-center w-full border-t-2 border-[#97959540] text-[gray] pt-3">
