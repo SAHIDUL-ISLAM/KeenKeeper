@@ -1,7 +1,7 @@
 import FriendsCard from './FriendsCard';
 
 const Dashboard = async() => {
-    const res = await fetch("http://localhost:3000/friends.json");
+    const res = await fetch("https://keen-keeper-git-main-collaborate2.vercel.app/friends.json");
     const friends = await res.json();
     return (
         <div className=''>
