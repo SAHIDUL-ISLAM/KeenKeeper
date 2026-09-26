@@ -1,5 +1,3 @@
-import React from 'react';
-import { TbFriends } from 'react-icons/tb';
 import FriendsCard from './FriendsCard';
 
 const Dashboard = async() => {
