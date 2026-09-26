@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar flex flex-col sm:flex-row bg-base-100 shadow-sm">
                 <div className="navbar-start">
                     <Link href={"/"}>
                         <h1 className="text-2xl font-bold text-[#244D3F]">
@@ -26,7 +26,7 @@ const Navbar = () => {
                         </h1>
                     </Link>
                 </div>
-                <div className="navbar-end gap-2">
+                <div className="navbar-end flex-wrap justify-center gap-2">
                     {navItems.map((item) => {
                         const isActive = item.href === '/'
                             ? pathname === '/'
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 className={`btn ${isActive ? 'bg-[#244D3F] text-white border-[#244D3F]' : ''}`}
                             >
                                 <span className='text-2xl'>{item.icon}</span>
-                                {item.label}
+                                <span className='hidden sm:inline'>{item.label}</span>
                             </Link>
                         );
                     })}
