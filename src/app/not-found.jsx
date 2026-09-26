@@ -1,21 +1,23 @@
 // "use client"
-
+import Image from "next/image";
 import Link from "next/link";
 
 const error = () => {
     return (
         <div>
-          <div className="hero bg-[#049e252c] min-h-screen">
-          <div className="hero-content text-center">
-            <div className="max-w-md">
-              <h1 className="text-5xl font-bold">404</h1>
-              <p className="py-6">
-                Page Not Found
-              </p>
-              <Link href={"/"}><button className="btn btn-primary">Go Home</button></Link>
+          <div className="hero min-h-screen py-3.5">
+            <div className="hero-content flex flex-col p-5 md:p-20 rounded-4xl text-center border-4 border-[#244D3F]">
+              <Image
+              src={"/error.png"}
+                        height={96}
+                        width={96}
+                        alt={"Error Image"}
+                        className="object-cover w-full h-full"
+              />
+              <h1 className="font-bold text-xl text-[#244D3F]">Page Not Found</h1>
+              <Link href={"/"}><button className="btn bg-[#244D3F] text-white">Go Home</button></Link>
             </div>
           </div>
-        </div>
         </div>
     );
 };
