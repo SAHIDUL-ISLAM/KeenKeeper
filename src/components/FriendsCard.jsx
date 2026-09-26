@@ -2,7 +2,6 @@ import React from 'react';
 import Image from "next/image";
 
 const FriendsCard = ({person}) => {
-    console.log(person.name)
     return (
         <div className=''>
             <div className="card bg-base-100 shadow-sm items-center text-center p-6">
