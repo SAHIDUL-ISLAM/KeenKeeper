@@ -36,7 +36,12 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className={`btn ${isActive ? 'bg-[#244D3F]! text-white! border-[#244D3F]!' : ''}`}
+                                className="btn"
+                                style={isActive ? {
+                                    backgroundColor: '#244D3F',
+                                    color: '#ffffff',
+                                    borderColor: '#244D3F',
+                                } : undefined}
                             >
                                 <span className='text-lg md:text-2xl'>{item.icon}</span>
                                 <span className='hidden sm:inline'>{item.label}</span>
