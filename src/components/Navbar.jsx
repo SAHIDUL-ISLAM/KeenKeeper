@@ -36,12 +36,11 @@ const Navbar = () => {
                             <Link
                                 key={item.href}
                                 href={item.href}
-                                className="btn"
-                                style={isActive ? {
-                                    backgroundColor: '#244D3F',
-                                    color: '#ffffff',
-                                    borderColor: '#244D3F',
-                                } : undefined}
+                                className={`btn border-transparent transition-colors duration-200 ${
+                                    isActive
+                                        ? 'bg-[#244D3F] text-white hover:bg-[#1C3B30] border-[#244D3F]'
+                                        : 'bg-transparent text-gray-700 hover:bg-gray-100'
+                                }`}
                             >
                                 <span className='text-lg md:text-2xl'>{item.icon}</span>
                                 <span className='hidden sm:inline'>{item.label}</span>

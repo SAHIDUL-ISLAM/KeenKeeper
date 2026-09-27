@@ -20,7 +20,7 @@ const Footer = () => {
                 <Link href={"/twitter"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border-white rounded-3xl flex items-center justify-center'><FaXTwitter /></Link>
                 </div>
             </nav>
-            <div className="sm:flex justify-between items-center w-full border-t-2 border-[#97959540] text-[gray] pt-3">
+            <div className="sm:flex justify-between items-center w-full border-t-2 border-[#97959540] text-[gray] max-w-7xl m-auto px-3.5">
                 <div className='div1'>
                     <p>© 2026 KeenKeeper. All rights reserved.</p>
                 </div>
