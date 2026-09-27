@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Banner = () => {
+const Banner = async() => {
     return (
         <div className='flex flex-col justify-center items-center px-4 pt-10 sm:pt-15 text-center border-[#97959540] mx-3.5 border-b-2'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-[#244D3F] max-w-3xl'>

@@ -15,9 +15,9 @@ const Footer = () => {
             <nav>
                 <h2 className='text-lg sm:text-xl font-semibold pb-2.5'>Social Links</h2>
                 <div className="grid grid-flow-col justify-center items-center gap-4">
-                <Link href={"/instagram"} className='bg-white p-2.5 rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><FaInstagram /></Link>
-                <Link href={"/facebook"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><CiFacebook /></Link>
-                <Link href={"/twitter"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border rounded-3xl flex items-center justify-center'><FaXTwitter /></Link>
+                <Link href={"/instagram"} className='bg-white p-2.5 rounded-full w-10 h-10 text-black border-white rounded-3xl flex items-center justify-center'><FaInstagram /></Link>
+                <Link href={"/facebook"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border-white rounded-3xl flex items-center justify-center'><CiFacebook /></Link>
+                <Link href={"/twitter"}  className='bg-white p-2.5rounded-full w-10 h-10 text-black border-white rounded-3xl flex items-center justify-center'><FaXTwitter /></Link>
                 </div>
             </nav>
             <div className="sm:flex justify-between items-center w-full border-t-2 border-[#97959540] text-[gray] pt-3">
