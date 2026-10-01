@@ -6,7 +6,7 @@ import "./globals.css";
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" data-theme="keenlight">
             <body>
               <Navbar />
                 <main className="max-w-7xl mx-auto">
