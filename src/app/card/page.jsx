@@ -10,6 +10,7 @@ const cardpage = () => {
                 <Link key={person.id} href={`/card/${person.id}`}>
                     <FriendsCard person={person} />
                 </Link>
+                
             ))}
         </div>
     );

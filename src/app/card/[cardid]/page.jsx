@@ -3,6 +3,7 @@ import friends from '../../../../public/friends.json';
 import Image from 'next/image';
 import { IoArchiveOutline, IoCallOutline, IoChatbubbleOutline, IoNotificationsOutline, IoVideocamOutline } from 'react-icons/io5';
 import { RiDeleteBin6Line } from 'react-icons/ri';
+import Toaster from '@/components/Toaster';
 
 const cardpage = async ({ params }) => {
     const { cardid } = await params;
@@ -85,24 +86,7 @@ const cardpage = async ({ params }) => {
                     </div>
                     <button className="btn btn-outline btn-sm">Edit</button>
                 </div>
-
-                <div className="card bg-base-100 shadow-sm p-5">
-                    <h3 className="font-bold text-[#1F2937] mb-3">Quick Check-In</h3>
-                    <div className="grid grid-cols-3 gap-3">
-                        <button className="btn btn-outline flex-col h-20 gap-1">
-                            <IoCallOutline className="text-xl" />
-                            <span className="text-xs">Call</span>
-                        </button>
-                        <button className="btn btn-outline flex-col h-20 gap-1">
-                            <IoChatbubbleOutline className="text-xl" />
-                            <span className="text-xs">Text</span>
-                        </button>
-                        <button className="btn btn-outline flex-col h-20 gap-1">
-                            <IoVideocamOutline className="text-xl" />
-                            <span className="text-xs">Video</span>
-                        </button>
-                    </div>
-                </div>
+                <Toaster friendId={person.id} friendName={person.name} />
             </div>
         </div>
     );

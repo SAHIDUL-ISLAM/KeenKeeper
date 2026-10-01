@@ -1,37 +1,22 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Toaster } from "react-hot-toast";
+import { TimelineProvider } from "@/context/TimelineContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata = {
-  title: "Keen Keeper",
-  description: "KeenKeeper by create next app",
-};
+import "./globals.css";
 
 export default function RootLayout({ children }) {
-  return (
-    <html
-      lang="en"
-      data-theme="light"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="">
-        <Navbar/>
-          <div className="bg-[#F8FAFC] ">
-          <main className="max-w-7xl mx-auto">{children}</main>
-          </div>
-        <Footer/>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body>
+              <Navbar />
+                <main className="max-w-7xl mx-auto">
+                  <TimelineProvider>
+                    {children}
+                    <Toaster position="top-center" />
+                  </TimelineProvider>
+                </main>
+              <Footer />
+            </body>
+        </html>
+    );
 }

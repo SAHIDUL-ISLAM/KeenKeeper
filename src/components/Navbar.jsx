@@ -15,7 +15,6 @@ const navItems = [
 
 const Navbar = () => {
     const pathname = usePathname();
-
     return (
         <div>
             <div className="navbar flex flex-col sm:flex-row bg-base-100 shadow-sm">
